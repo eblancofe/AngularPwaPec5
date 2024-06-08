@@ -1,0 +1,114 @@
+{
+  "configVersion": 1,
+  "timestamp": 1717884771902,
+  "index": "https://eblancofe.github.io/AngularPwaPec5/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eblancofe.github.io/AngularPwaPec5/favicon.ico",
+        "https://eblancofe.github.io/AngularPwaPec5/index.html",
+        "https://eblancofe.github.io/AngularPwaPec5/main.753ce85572df37b4.js",
+        "https://eblancofe.github.io/AngularPwaPec5/manifest.webmanifest",
+        "https://eblancofe.github.io/AngularPwaPec5/polyfills.f4c537d0e47dfc90.js",
+        "https://eblancofe.github.io/AngularPwaPec5/runtime.bc07acc36b18d3ff.js",
+        "https://eblancofe.github.io/AngularPwaPec5/styles.a1a17b50b98a6160.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.3\\.3\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://eblancofe.github.io/AngularPwaPec5/assets/css/animate.css",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-128x128.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-144x144.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-152x152.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-192x192.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-384x384.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-512x512.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-72x72.png",
+        "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "photos-api",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/photos\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "robohash-api",
+      "patterns": [
+        "'https:\\/\\/robohash\\.org\\/(?:.+\\/)?\\?set=set2'"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 3600000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://eblancofe.github.io/AngularPwaPec5/assets/css/animate.css": "1d5c16e4a56f56ceeff595897da8673875104012",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://eblancofe.github.io/AngularPwaPec5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://eblancofe.github.io/AngularPwaPec5/index.html": "9878dbee1b26956a14b471c38146b6203e1c9792",
+    "https://eblancofe.github.io/AngularPwaPec5/main.753ce85572df37b4.js": "9fb73aceeded60545708f13c5b0934924786ce11",
+    "https://eblancofe.github.io/AngularPwaPec5/manifest.webmanifest": "2969d54c362e4a1fb5fc429e0ff6ea2d75eaae13",
+    "https://eblancofe.github.io/AngularPwaPec5/polyfills.f4c537d0e47dfc90.js": "581af49d5cbc72073072dcca94c6af871a4be05e",
+    "https://eblancofe.github.io/AngularPwaPec5/runtime.bc07acc36b18d3ff.js": "e5af4641ca9d1dd97f81b956e619504a3603d517",
+    "https://eblancofe.github.io/AngularPwaPec5/styles.a1a17b50b98a6160.css": "db236b6c47ae3120c00d114abdb304f77e40838b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
