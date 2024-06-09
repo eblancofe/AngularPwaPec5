@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1717888410381,
+  "timestamp": 1717969804146,
   "index": "https://eblancofe.github.io/AngularPwaPec5/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://eblancofe.github.io/AngularPwaPec5/favicon.ico",
         "https://eblancofe.github.io/AngularPwaPec5/index.html",
-        "https://eblancofe.github.io/AngularPwaPec5/main.753ce85572df37b4.js",
+        "https://eblancofe.github.io/AngularPwaPec5/main.972201b551b11d99.js",
         "https://eblancofe.github.io/AngularPwaPec5/manifest.webmanifest",
         "https://eblancofe.github.io/AngularPwaPec5/polyfills.f4c537d0e47dfc90.js",
         "https://eblancofe.github.io/AngularPwaPec5/runtime.bc07acc36b18d3ff.js",
@@ -85,8 +85,8 @@
     "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://eblancofe.github.io/AngularPwaPec5/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://eblancofe.github.io/AngularPwaPec5/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://eblancofe.github.io/AngularPwaPec5/index.html": "6934829c88a1b58b26e321d599d188f520e4486b",
-    "https://eblancofe.github.io/AngularPwaPec5/main.753ce85572df37b4.js": "9fb73aceeded60545708f13c5b0934924786ce11",
+    "https://eblancofe.github.io/AngularPwaPec5/index.html": "0c9a3fd57fb58e9aa166f6afd0c2a03c22061bec",
+    "https://eblancofe.github.io/AngularPwaPec5/main.972201b551b11d99.js": "a9641551df9f5566cd07b7325e50e5ded2acc02e",
     "https://eblancofe.github.io/AngularPwaPec5/manifest.webmanifest": "2969d54c362e4a1fb5fc429e0ff6ea2d75eaae13",
     "https://eblancofe.github.io/AngularPwaPec5/polyfills.f4c537d0e47dfc90.js": "581af49d5cbc72073072dcca94c6af871a4be05e",
     "https://eblancofe.github.io/AngularPwaPec5/runtime.bc07acc36b18d3ff.js": "e5af4641ca9d1dd97f81b956e619504a3603d517",
