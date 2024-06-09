@@ -5,8 +5,16 @@
     class="row animate__animated animate__bounce animate__backInRight"
   >
     <div class="col-md-9">
+      <mat-card class="colorido">
+        <mat-card-header class="centrado">
+          <mat-card-title
+            ><strong>Title: </strong>{{ album.title }}</mat-card-title
+          >
+        </mat-card-header>
+
+        <!--
       <p><strong>Title: </strong>{{ album.title }}</p>
-      <!--
+      
       <p><strong>Identifier: </strong>{{ album.id }}</p>
       <p><strong>Album ID: </strong>{{ album.albumId }}</p>      
       <p><strong>URL: </strong>{{ album.url }}</p>
@@ -17,34 +25,42 @@
         alt="Fotos random"
       />
       -->
-      <mat-accordion class="example-headers-align" multi>
-        <mat-expansion-panel [expanded]="panelOpenState">
-          <mat-expansion-panel-header>
-            <mat-panel-title><strong>PHOTO DATA</strong></mat-panel-title>
-            <mat-panel-description>
-              View photo personal file
-              <mat-icon>photo</mat-icon>
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <p><strong>Identifier: </strong>{{ album.id }}</p>
-          <p><strong>Album ID: </strong>{{ album.albumId }}</p>
-          <p><strong>URL: </strong>{{ album.url }}</p>
-          <img
-            style="width: 30%; height: 50%"
-            class="rounded border border-dark shadow-lg p-3 mb-5 bg-body rounded"
-            src="{{
-              'https://robohash.org/' + album.thumbnailUrl + '/?set=set2'
-            }}"
-            alt="Fotos random"
-          />
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-    <div class="col-md-2">
-      <a class="btn btn-danger" routerLink="/">Back</a>
-      <a class="btn btn-info arriba" (click)="togglePanel()"
-        >Show all details</a
-      >
+        <mat-accordion class="example-headers-align colorido" multi>
+          <mat-expansion-panel [expanded]="panelOpenState">
+            <mat-expansion-panel-header>
+              <mat-panel-title><strong>PHOTO DATA</strong></mat-panel-title>
+              <mat-panel-description>
+                View photo personal file
+                <mat-icon>photo</mat-icon>
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p><strong>Identifier: </strong>{{ album.id }}</p>
+            <p><strong>Album ID: </strong>{{ album.albumId }}</p>
+            <p><strong>URL: </strong>{{ album.url }}</p>
+            <img
+              style="width: 30%; height: 50%"
+              class="rounded border border-dark shadow-lg p-3 mb-5 bg-body rounded"
+              src="{{
+                'https://robohash.org/' + album.thumbnailUrl + '/?set=set2'
+              }}"
+              alt="Fotos random"
+            />
+            <figcaption>
+              <strong>Imagen Fuente: </strong>https://robohash.org/{{
+                album.thumbnailUrl
+              }}/?set=set2
+            </figcaption>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <mat-card-actions>
+          <div class="col-md-2 centrado">
+            <a class="btn btn-danger" routerLink="/">Back</a>
+            <a class="btn btn-info arriba" (click)="togglePanel()"
+              >Show all details</a
+            >
+          </div>
+        </mat-card-actions>
+      </mat-card>
     </div>
   </div>
 </div>

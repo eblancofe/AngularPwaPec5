@@ -1,7 +1,26 @@
+.colorido {
+  background-color: rgb(231, 235, 238);
+}
+
 .arriba {
   margin-top: 10px;
 }
 
+/* Adaptamos la vista para modo tabletas o móviles */
+@media (max-width: 600px) {
+  .arriba {
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+}
+
+.centrado {
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .mat-expansion-panel-header-description {
   justify-content: space-between;
   align-items: center;
